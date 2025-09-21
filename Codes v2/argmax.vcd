@@ -1,0 +1,59 @@
+$date
+	Sat Sep 20 15:15:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_argmax $end
+$var wire 2 ! max_index [1:0] $end
+$var parameter 32 " N $end
+$var parameter 32 # WIDTH $end
+$var reg 64 $ in_vec [63:0] $end
+$scope module uut $end
+$var wire 64 % in_vec [63:0] $end
+$var parameter 32 & N $end
+$var parameter 32 ' WIDTH $end
+$var reg 16 ( current_val [15:0] $end
+$var reg 2 ) max_index [1:0] $end
+$var reg 16 * max_val [15:0] $end
+$var integer 32 + i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 '
+b100 &
+b10000 #
+b100 "
+$end
+#0
+$dumpvars
+b100 +
+b10100 *
+b10 )
+b1010 (
+b1010000000000001010000000000000001010000000000000111 %
+b1010000000000001010000000000000001010000000000000111 $
+b10 !
+$end
+#10000
+b1 (
+b100 +
+b10 !
+b10 )
+b110010 *
+b1000000000011001000000000000110010000000000011110 $
+b1000000000011001000000000000110010000000000011110 %
+#20000
+b1100100 (
+b100 +
+b11 !
+b11 )
+b1100100 *
+b1100100000000000001010000000000010100000000000001011010 $
+b1100100000000000001010000000000010100000000000001011010 %
+#30000

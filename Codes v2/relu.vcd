@@ -1,0 +1,39 @@
+$date
+	Sat Sep 20 14:59:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_relu $end
+$var wire 16 ! y [15:0] $end
+$var reg 16 " x [15:0] $end
+$scope module uut $end
+$var wire 16 # x [15:0] $end
+$var parameter 32 $ WIDTH $end
+$var reg 16 % y [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 $
+$end
+#0
+$dumpvars
+b0 %
+b1111111111111011 #
+b1111111111111011 "
+b0 !
+$end
+#10000
+b0 "
+b0 #
+#20000
+b111 !
+b111 %
+b111 "
+b111 #
+#30000
